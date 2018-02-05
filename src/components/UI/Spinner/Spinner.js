@@ -1,9 +1,9 @@
 import React from 'react';
 import classes from './Spinner.css';
 const spinner = () => (
-    <div class={classes.spinner}>
-        <div class={classes.doubleBounce1}></div>
-        <div class={classes.doubleBounce2}></div>
+    <div className={classes.spinner}>
+        <div className={classes.doubleBounce1}></div>
+        <div className={classes.doubleBounce2}></div>
     </div>
 )
 
