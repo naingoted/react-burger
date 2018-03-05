@@ -24,6 +24,7 @@ export const authFail = (error) => {
 }
 
 export const logout = () =>{
+    console.log("store actions auth.js");
     return {
         type: actionTypes.AUTH_LOGOUT
     }
